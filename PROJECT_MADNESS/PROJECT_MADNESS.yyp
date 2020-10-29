@@ -1,7 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"S_Teste_Walk","path":"sprites/S_Teste_Walk/S_Teste_Walk.yy",},"order":1,},
+    {"id":{"name":"S_Teste_Stand","path":"sprites/S_Teste_Stand/S_Teste_Stand.yy",},"order":0,},
+    {"id":{"name":"O_Parede","path":"objects/O_Parede/O_Parede.yy",},"order":1,},
+    {"id":{"name":"O_Teste","path":"objects/O_Teste/O_Teste.yy",},"order":0,},
+    {"id":{"name":"S_Parede","path":"sprites/S_Parede/S_Parede.yy",},"order":2,},
+    {"id":{"name":"R_Prototipo","path":"rooms/R_Prototipo/R_Prototipo.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -17,7 +21,7 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"R_Prototipo","path":"rooms/R_Prototipo/R_Prototipo.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -34,6 +38,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Teste.yy","order":1,"resourceVersion":"1.0","name":"Teste","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
