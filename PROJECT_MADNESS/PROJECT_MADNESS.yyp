@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"F_Pixelada","path":"fonts/F_Pixelada/F_Pixelada.yy",},"order":0,},
     {"id":{"name":"S_Teste_Walk","path":"sprites/S_Teste_Walk/S_Teste_Walk.yy",},"order":1,},
     {"id":{"name":"S_Teste_Stand","path":"sprites/S_Teste_Stand/S_Teste_Stand.yy",},"order":0,},
     {"id":{"name":"O_Parede","path":"objects/O_Parede/O_Parede.yy",},"order":1,},
