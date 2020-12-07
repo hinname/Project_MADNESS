@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "S_Parede",
-    "path": "sprites/S_Parede/S_Parede.yy",
+    "name": "S_Wall",
+    "path": "sprites/S_Wall/S_Wall.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "O_Parede",
+  "name": "O_Wall",
   "tags": [],
   "resourceType": "GMObject",
 }
