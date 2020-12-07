@@ -6,6 +6,7 @@
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},"order":1,},
     {"id":{"name":"S_WrapTo","path":"sprites/S_WrapTo/S_WrapTo.yy",},"order":3,},
     {"id":{"name":"R_Next","path":"rooms/R_Next/R_Next.yy",},"order":1,},
+    {"id":{"name":"O_WrapController","path":"objects/O_WrapController/O_WrapController.yy",},"order":3,},
     {"id":{"name":"O_WrapTo","path":"objects/O_WrapTo/O_WrapTo.yy",},"order":2,},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"order":0,},
     {"id":{"name":"S_Wall","path":"sprites/S_Wall/S_Wall.yy",},"order":2,},
