@@ -1,5 +1,5 @@
 /// @description Collide
-wrap = instance_create_depth(x,y, depth -1000, O_WrapController);
+var wrap = instance_create_depth(x,y, depth -1000, O_WrapController);
 
 wrap.newX = xPosition;
 wrap.newY = yPosition;
