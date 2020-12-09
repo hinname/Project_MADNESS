@@ -1,17 +1,20 @@
 {
   "resources": [
-    {"id":{"name":"F_Pixelada","path":"fonts/F_Pixelada/F_Pixelada.yy",},"order":0,},
     {"id":{"name":"S_Player_Walk","path":"sprites/S_Player_Walk/S_Player_Walk.yy",},"order":1,},
     {"id":{"name":"S_Player_Stand","path":"sprites/S_Player_Stand/S_Player_Stand.yy",},"order":0,},
     {"id":{"name":"O_Door","path":"objects/O_Door/O_Door.yy",},"order":4,},
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},"order":1,},
+    {"id":{"name":"R_MainMenu","path":"rooms/R_MainMenu/R_MainMenu.yy",},"order":0,},
     {"id":{"name":"O_PopUp","path":"objects/O_PopUp/O_PopUp.yy",},"order":5,},
     {"id":{"name":"S_WrapTo","path":"sprites/S_WrapTo/S_WrapTo.yy",},"order":3,},
     {"id":{"name":"R_Next","path":"rooms/R_Next/R_Next.yy",},"order":1,},
     {"id":{"name":"R_NextDoor","path":"rooms/R_NextDoor/R_NextDoor.yy",},"order":2,},
     {"id":{"name":"O_WrapController","path":"objects/O_WrapController/O_WrapController.yy",},"order":3,},
+    {"id":{"name":"O_MainMenu","path":"objects/O_MainMenu/O_MainMenu.yy",},"order":0,},
+    {"id":{"name":"R_MenuGame","path":"rooms/R_MenuGame/R_MenuGame.yy",},"order":1,},
     {"id":{"name":"O_WrapTo","path":"objects/O_WrapTo/O_WrapTo.yy",},"order":2,},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"order":0,},
+    {"id":{"name":"F_Pixelada","path":"fonts/F_Pixelada/F_Pixelada.yy",},"order":0,},
     {"id":{"name":"S_Wall","path":"sprites/S_Wall/S_Wall.yy",},"order":2,},
     {"id":{"name":"S_Door","path":"sprites/S_Door/S_Door.yy",},"order":4,},
     {"id":{"name":"R_Start","path":"rooms/R_Start/R_Start.yy",},"order":0,},
@@ -30,9 +33,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"R_MainMenu","path":"rooms/R_MainMenu/R_MainMenu.yy",},},
     {"roomId":{"name":"R_Start","path":"rooms/R_Start/R_Start.yy",},},
     {"roomId":{"name":"R_Next","path":"rooms/R_Next/R_Next.yy",},},
     {"roomId":{"name":"R_NextDoor","path":"rooms/R_NextDoor/R_NextDoor.yy",},},
+    {"roomId":{"name":"R_MenuGame","path":"rooms/R_MenuGame/R_MenuGame.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -50,6 +55,8 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Player.yy","order":1,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/menu.yy","order":6,"resourceVersion":"1.0","name":"menu","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/menus.yy","order":3,"resourceVersion":"1.0","name":"menus","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
