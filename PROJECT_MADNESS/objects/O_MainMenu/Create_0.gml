@@ -13,7 +13,8 @@ menu[3] = "Exit";
 */
 
 enum menu_page {
-	load_game,
+	main,
+	//load_game,
 	settings,
 	audio,
 	graphics,
@@ -22,7 +23,7 @@ enum menu_page {
 
 ds_menu_main = create_menu_page(
 	["NEW GAME"	,	menu_element_type.script_runner,	new_game()],
-	["LOAD GAME",	menu_element_type.page_transfer,	menu_page.load_game],
+	//["LOAD GAME",	menu_element_type.page_transfer,	menu_page.load_game],
 	["SETTINGS"	,	menu_element_type.page_transfer,	menu_page.settings],
 	["EXIT"		,	menu_element_type.script_runner,	exit_game()]
 );
@@ -30,12 +31,13 @@ ds_menu_main = create_menu_page(
 ds_menu_settings = create_menu_page(
 	["AUDIO"	,	menu_element_type.page_transfer,	menu_page.audio],
 	["GRAPHICS"	,	menu_element_type.page_transfer,	menu_page.graphics],
-	["CONTROLS"	,	menu_element_type.page_transfer,	menu_page.controls]
+	["CONTROLS"	,	menu_element_type.page_transfer,	menu_page.controls],
+	["BACK"		,	menu_element_type.page_transfer,	menu_page.main],
 	
 );
 ds_menu_audio = create_menu_page(
-	["MASTER"	,	menu_element_type.slider,			change_volume(), 1, [0,1]],
-	["SOUNDS"	,	menu_element_type.slider,			change_volume(), 1, [0,1]],
+	["MASTER"	,	menu_element_type.slider,			change_volume(), 0.5, [0,1]],
+	["SOUNDS"	,	menu_element_type.slider,			change_volume(), 0.2, [0,1]],
 	["MUSIC"	,	menu_element_type.slider,			change_volume(), 1, [0,1]],
 	["BACK"		,	menu_element_type.page_transfer,	menu_page.settings]
 );
@@ -46,9 +48,9 @@ ds_menu_graphics = create_menu_page(
 );
 ds_menu_controls = create_menu_page(
 	["UP"		,	menu_element_type.input,			"key_up",	vk_up],
-	["LEFT"		,	menu_element_type.input,			"key_left",	vk_up],
-	["RIGHT"	,	menu_element_type.input,			"key_right",vk_up],
-	["DOWN"		,	menu_element_type.input,			"key_down",	vk_up],
+	["LEFT"		,	menu_element_type.input,			"key_left",	vk_left],
+	["RIGHT"	,	menu_element_type.input,			"key_right",vk_right],
+	["DOWN"		,	menu_element_type.input,			"key_down",	vk_down],
 	["BACK"		,	menu_element_type.page_transfer,	menu_page.settings]
 );
 
