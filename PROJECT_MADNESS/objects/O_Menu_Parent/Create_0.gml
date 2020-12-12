@@ -6,7 +6,7 @@ global.view_height	= camera_get_view_height(view_camera[0]);
 
 
 global.key_revert	= ord("X");
-global.key_enter	= vk_space;
+global.key_enter	= vk_enter;
 global.key_left		= vk_left;
 global.key_right	= vk_right;
 global.key_up		= vk_up;
@@ -20,7 +20,7 @@ enum menu_element_type {
 	page_transfer,
 	slider,
 	shift,
-	toogle,
+	toggle,
 	input
 }
 

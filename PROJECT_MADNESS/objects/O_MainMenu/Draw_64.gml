@@ -66,12 +66,14 @@ yy = 0; repeat(ds_height) {
 			var current_array = ds_grid[# 4, yy];
 			var left_shift = "<< ";
 			var right_shift = " >>";
+			c = c_white;
 			
 			if(current_val == 0) left_shift=""; //se for o primeiro elemento, não desenha left arrow
 			if(current_val == array_length(ds_grid[# 4, yy]) -1) right_shift = ""; //se for o ultimo, não desenha right arrow
 			
-			c = c_white;
-			
+			if(inputting and yy == menu_option[page]){
+				c = c_yellow;
+			}
 			draw_text_color(rtx, rty, left_shift + current_array[current_val] + right_shift, c, c, c, c, 1);
 			
 			break;
@@ -85,17 +87,24 @@ yy = 0; repeat(ds_height) {
 			c = c_white;
 			
 			draw_line_width(rtx, rty, rtx + len, rty, 2);
+			
+			if(inputting and yy == menu_option[page]){
+				c = c_yellow;
+			}
 			draw_circle_color(rtx + (circle_pos*len), rty, 4, c, c, false);
 			draw_text_color(rtx + (len*1.2), rty, string(floor(circle_pos * 100)) + "%", c,c,c,c, 1);
 			
 			break;
 		
-		case menu_element_type.toogle:
+		case menu_element_type.toggle:
 			
 			var current_val = ds_grid[# 3, yy];
 			var c1, c2;
 			c = c_white;
 			
+			if(inputting and yy == menu_option[page]){
+				c = c_yellow;
+			}
 			if(current_val == 0) {
 				c1 = c;
 				c2 = c_dkgray;
@@ -133,6 +142,9 @@ yy = 0; repeat(ds_height) {
 				}
 			
 				c = c_white;
+				if(inputting and yy == menu_option[page]){
+					c = c_yellow;
+				}
 				draw_text_color(rtx, rty, string_val, c, c, c, c, 1);
 				break;
 	}

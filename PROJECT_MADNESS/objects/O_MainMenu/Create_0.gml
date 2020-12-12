@@ -22,10 +22,10 @@ enum menu_page {
 }
 
 ds_menu_main = create_menu_page(
-	["NEW GAME"	,	menu_element_type.script_runner,	new_game()],
+	["NEW GAME"	,	menu_element_type.script_runner,	"new_game"],
 	//["LOAD GAME",	menu_element_type.page_transfer,	menu_page.load_game],
 	["SETTINGS"	,	menu_element_type.page_transfer,	menu_page.settings],
-	["EXIT"		,	menu_element_type.script_runner,	exit_game()]
+	["EXIT"		,	menu_element_type.script_runner,	"exit_game"]
 );
 
 ds_menu_settings = create_menu_page(
@@ -36,14 +36,14 @@ ds_menu_settings = create_menu_page(
 	
 );
 ds_menu_audio = create_menu_page(
-	["MASTER"	,	menu_element_type.slider,			change_volume(), 0.5, [0,1]],
-	["SOUNDS"	,	menu_element_type.slider,			change_volume(), 0.2, [0,1]],
-	["MUSIC"	,	menu_element_type.slider,			change_volume(), 1, [0,1]],
+	["MASTER"	,	menu_element_type.slider,			"change_volume", 0.5, [0,1]],
+	["SOUNDS"	,	menu_element_type.slider,			"change_volume", 0.2, [0,1]],
+	["MUSIC"	,	menu_element_type.slider,			"change_volume", 1, [0,1]],
 	["BACK"		,	menu_element_type.page_transfer,	menu_page.settings]
 );
 ds_menu_graphics = create_menu_page(
-	["RESOLUTION",	menu_element_type.shift,		change_resolution(), 0, ["960 x 540", "1280 x 720", "1600 x 900", "1920 x 1080"]],
-	["WINDOW MODE", menu_element_type.toogle,		change_window_mode(), 1, ["FULLSCREEN", "WINDOWED"]],
+	["RESOLUTION",	menu_element_type.shift,		"change_resolution", 0, ["960 x 540", "1280 x 720", "1600 x 900", "1920 x 1080"]],
+	["WINDOW MODE", menu_element_type.toggle,		"change_window_mode", 1, ["FULLSCREEN", "WINDOWED"]],
 	["BACK"		,	menu_element_type.page_transfer,	menu_page.settings]
 );
 ds_menu_controls = create_menu_page(
@@ -62,3 +62,5 @@ repeat(array_len){
 	menu_option[i] = 0;
 	i++;
 }
+
+inputting = false;

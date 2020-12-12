@@ -6,4 +6,6 @@ if keyboard_check(vk_space) {
 	wrap.newX = xPositionDoor;
 	wrap.newY = yPositionDoor;
 	wrap.newRoom = roomNameDoor;
+	
+	instance_destroy();
 }
