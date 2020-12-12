@@ -4,6 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
+/*
 if select {
 	switch(index) {
 		case 0:
@@ -22,3 +23,6 @@ if select {
 		break;
 	}
 }
+*/
+
+if(!global.pause) exit;

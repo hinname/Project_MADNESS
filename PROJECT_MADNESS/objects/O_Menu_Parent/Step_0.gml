@@ -1,5 +1,6 @@
 /// @description Get Input
 
+/*
 var _up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 var _down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 select = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space);
@@ -10,9 +11,9 @@ if _move != 0 {
 	index += _move;
 	
 	//clamp values
-	var _size = array_length_1d(menu);
+	var _size = array_length(menu);
 	
 	if index < 0 index = _size - 1; //se ta no start, vai para o final
 	else if index >= _size index = 0; //se ta no final, vai para start
 }
-
+*/

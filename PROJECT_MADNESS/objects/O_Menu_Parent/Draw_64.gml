@@ -1,5 +1,6 @@
 /// @description Draw Menu
 
+/*
 display_set_gui_size(320, 180);
 
 draw_set_halign(fa_center);
@@ -13,4 +14,6 @@ for (var i = 0; i < array_length_1d(menu); ++i) {
 	
 	draw_text(room_width/2, room_height * .25 + gap * i, menu[i]);
 }
+
+*/
 
