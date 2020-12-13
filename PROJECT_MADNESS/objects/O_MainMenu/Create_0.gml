@@ -64,3 +64,7 @@ repeat(array_len){
 }
 
 inputting = false;
+
+//AUDIO
+//Criar audio group
+//audio_group_load(audio_group_here)

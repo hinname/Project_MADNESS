@@ -46,6 +46,25 @@ if(inputting){
 		
 			break;
 		case menu_element_type.slider:
+			switch(menu_option[page]){
+				case 0:
+					//if(!audio_is_playing(audio_here)){
+						//play audio master
+					//}
+					break;
+				case 1: 
+					//if(!audio_is_playing(audio_here)){
+						//play audio master
+					//}
+					break;
+				case 2:
+					//if(!audio_is_playing(audio_here)){
+						//play audio master
+					//}
+					break;
+					
+			}
+		
 			var hinput = keyboard_check(global.key_right) - keyboard_check(global.key_left);
 			if(hinput != 0) {
 			
@@ -104,10 +123,23 @@ if(input_enter_p) {
 			}
 			
 			break;
+			
+			
 		case menu_element_type.page_transfer: 
 			page = ds_grid[# 2, menu_option[page]];
 			break;
+			
+			
 		case menu_element_type.shift:
+			var shift_value = ds_grid[# 3, menu_option[page]]; //pega o valor do shift no grid;
+			
+			if(inputting){
+				var func = ds_grid[# 2, menu_option[page]];
+				if(func == "change_resolution"){
+					change_resolution(shift_value);
+				}
+			}
+		
 		case menu_element_type.slider:
 			var slider_value = ds_grid[# 3, menu_option[page]]; //pega o valor do slider no grid
 			
@@ -119,12 +151,12 @@ if(input_enter_p) {
 			}
 			
 		case menu_element_type.toggle: 
-			//var toggle_value = ds_grid[# 3, menu_option[page]]; //pega o valor do toggle no grid
+			var toggle_value = ds_grid[# 3, menu_option[page]]; //pega o valor do toggle no grid
 			
 			if(inputting){
 				var func = ds_grid[# 2, menu_option[page]];
 				if(func == "change_window_mode"){
-					change_window_mode();
+					change_window_mode(toggle_value);
 				}
 				
 			}
