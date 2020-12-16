@@ -80,7 +80,7 @@ yy = 0; repeat(ds_height) {
 		
 		case menu_element_type.slider:
 			var len = 64;
-			var current_val = ds_grid[# 3, yy];
+			var current_val = ds_grid[# 3, yy]; 
 			var current_array = ds_grid[# 4, yy];
 			var circle_pos = ((current_val - current_array[0]) / (current_array[1] - current_array[0])); //funciona com outros numeros no array. EX [2,5]
 
