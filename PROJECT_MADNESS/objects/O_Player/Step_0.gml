@@ -1,3 +1,5 @@
+/// @description Movement
+
 if(!instance_exists(O_WrapController)){
 
 	if keyboard_check(global.key_right) and not place_meeting (x+4, y, O_Wall)

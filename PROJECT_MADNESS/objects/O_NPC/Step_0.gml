@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+image_speed = 0.04;
+
 if (place_meeting(x, y, O_Player))
 	//Se ainda não criou o texto
 	{
