@@ -18,7 +18,8 @@ if (place_meeting(x, y, O_Player))
 		if (mytextbox != noone)
 		{
 		instance_destroy(mytextbox);
-		mytextbox = noone
+		mytextbox = noone;
 		}
+		
 	}
 	
