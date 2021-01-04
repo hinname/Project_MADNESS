@@ -3,7 +3,7 @@
 //Collision Event
 if(has_collided != true){
      has_collided = true;
-	    if keyboard_check(vk_space) {
+	    if keyboard_check_pressed(global.key_enter) {
 			var wrap = instance_create_depth(x,y, depth -1000, O_WrapController);
 
 			wrap.newX = xPositionDoor;
@@ -14,7 +14,7 @@ if(has_collided != true){
 
      //Set an alarm to reset the has_collided
      //variable to false after 0.2 second.
-     alarm[0] = 0.2 * room_speed;
+     alarm[0] = 0.02 * room_speed;
 } else {
      /*
      A collision has already been triggered.

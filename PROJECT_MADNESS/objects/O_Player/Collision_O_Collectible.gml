@@ -1,7 +1,6 @@
 /// @description Collect Item
 
 
-
 if(keyboard_check_pressed(global.key_enter)){
 	var key = object_get_name(other.object_index);
 	var value = 1;

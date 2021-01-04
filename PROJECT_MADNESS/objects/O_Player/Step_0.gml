@@ -1,5 +1,10 @@
 /// @description Movement
 
+//Menu esc
+if keyboard_check_pressed(global.key_menu){
+	room_goto(R_MenuOption);
+}
+
 if(!instance_exists(O_WrapController)){
 
 	if keyboard_check(global.key_right) and not place_meeting (x+4, y, O_Wall)
