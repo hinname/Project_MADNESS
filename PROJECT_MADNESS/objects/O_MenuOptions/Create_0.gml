@@ -17,7 +17,7 @@ ds_menu_options = create_menu_page(
 	["RESUME"	,	menu_element_type.script_runner,	"resume_game"],
 	//["LOAD GAME",	menu_element_type.page_transfer,	menu_page.load_game],
 	["SETTINGS"	,	menu_element_type.page_transfer,	menu_page.settings],
-	["MAIN MENU",	menu_element_type.script_runner,	"change_menu_room"],
+	["MAIN MENU",	menu_element_type.script_runner,	"change_room_menu"],
 	["EXIT DESKTOP"		,	menu_element_type.script_runner,	"exit_game"]
 );
 

@@ -56,8 +56,8 @@
     {"roomId":{"name":"R_Start","path":"rooms/R_Start/R_Start.yy",},},
     {"roomId":{"name":"R_Next","path":"rooms/R_Next/R_Next.yy",},},
     {"roomId":{"name":"R_NextDoor","path":"rooms/R_NextDoor/R_NextDoor.yy",},},
-    {"roomId":{"name":"R_MenuOption","path":"rooms/R_MenuOption/R_MenuOption.yy",},},
     {"roomId":{"name":"R_MenuGame","path":"rooms/R_MenuGame/R_MenuGame.yy",},},
+    {"roomId":{"name":"R_MenuOption","path":"rooms/R_MenuOption/R_MenuOption.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -82,6 +82,7 @@
     {"folderPath":"folders/Objects/camera.yy","order":9,"resourceVersion":"1.0","name":"camera","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Items.yy","order":6,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Items.yy","order":10,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Core.yy","order":11,"resourceVersion":"1.0","name":"Core","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

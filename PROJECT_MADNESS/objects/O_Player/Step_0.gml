@@ -2,8 +2,14 @@
 
 //Menu esc
 if keyboard_check_pressed(global.key_menu){
+	global.pause = true;
+	
+	room.persistent = true;
 	room_goto(R_MenuOption);
 }
+
+
+
 
 if(!instance_exists(O_WrapController)){
 
