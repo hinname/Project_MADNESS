@@ -6,6 +6,7 @@ if(room != newRoom){
 		room_goto(newRoom);
 		O_Player.x = newX;
 		O_Player.y = newY;
+		
 	}
 }else{
 	fadeLevel -= 0.030;

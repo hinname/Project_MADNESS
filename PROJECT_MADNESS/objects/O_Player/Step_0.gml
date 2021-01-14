@@ -1,12 +1,13 @@
 /// @description Movement
 
 //Menu esc
-if keyboard_check_pressed(global.key_menu){
+/*if keyboard_check_pressed(global.key_menu){
 	global.pause = true;
 	
 	room.persistent = true;
 	room_goto(R_MenuOption);
 }
+*/
 
 
 
