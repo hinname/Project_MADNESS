@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if(!global.pause) room_goto(R_Start);
+if(!global.pause) room_goto(global.roomFrom);
 
 input_up_p = keyboard_check_pressed(global.key_up);
 input_down_p = keyboard_check_pressed(global.key_down);

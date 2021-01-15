@@ -1,4 +1,7 @@
-/// @description Pause the game
+/// @description Insert description here
+// You can write your code in this editor
+global.roomFrom = 0;
+
 if(keyboard_check_pressed(global.key_menu))
 {
 	global.pause = !global.pause;
@@ -18,7 +21,7 @@ if(keyboard_check_pressed(global.key_menu))
 			instance_activate_all();
 		}
 		
-		room_previous(room);
+		global.roomFrom = room;
 		room_goto(R_MenuOption);
 	}
 	else 
@@ -29,7 +32,7 @@ if(keyboard_check_pressed(global.key_menu))
 			image_speed = pauseImageSpeed;
 		}
 		*/
-		room_goto_previous();
+		room_goto(global.roomFrom);
 		instance_deactivate_all(true);
 	}
 	
