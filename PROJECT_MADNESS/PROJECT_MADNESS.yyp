@@ -21,7 +21,7 @@
     {"id":{"name":"O_WrapController","path":"objects/O_WrapController/O_WrapController.yy",},"order":3,},
     {"id":{"name":"O_Menu_Parent","path":"objects/O_Menu_Parent/O_Menu_Parent.yy",},"order":0,},
     {"id":{"name":"change_volume","path":"scripts/change_volume/change_volume.yy",},"order":3,},
-    {"id":{"name":"O_Game","path":"objects/O_Game/O_Game.yy",},"order":0,},
+    {"id":{"name":"O_MenuController","path":"objects/O_MenuController/O_MenuController.yy",},"order":0,},
     {"id":{"name":"R_MenuOption","path":"rooms/R_MenuOption/R_MenuOption.yy",},"order":1,},
     {"id":{"name":"O_WrapTo","path":"objects/O_WrapTo/O_WrapTo.yy",},"order":2,},
     {"id":{"name":"R_MenuGame","path":"rooms/R_MenuGame/R_MenuGame.yy",},"order":2,},

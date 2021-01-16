@@ -43,7 +43,7 @@ var yy = 0; repeat(ds_height) {
 }
 
 // Draw Divinding Line
-draw_line(start_x, start_y-y_buffer, start_x, lty+y_buffer);
+draw_line_color(start_x, start_y-y_buffer, start_x, lty+y_buffer, c_white, c_white);
 
 //Draw Elements on Right Side
 draw_set_halign(fa_left);

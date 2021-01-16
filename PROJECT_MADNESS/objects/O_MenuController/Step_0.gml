@@ -18,6 +18,7 @@ if(keyboard_check_pressed(global.key_menu))
 		{
 			
 			O_Player.persistent = false;
+			O_MenuController.persistent = false;
 			instance_activate_all();
 			
 		}

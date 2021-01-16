@@ -7,6 +7,9 @@ if(room != newRoom){
 		O_Player.x = newX;
 		O_Player.y = newY;
 		
+		O_MenuController.x = newX;
+		O_MenuController.x = newY;
+		
 
 	}
 }else{
