@@ -4,14 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-enum menu_page {
-	main,
-	//load_game,
-	settings,
-	audio,
-	graphics,
-	controls,
-}
 
 ds_menu_options = create_menu_page(
 	["RESUME"	,	menu_element_type.script_runner,	"resume_game"],

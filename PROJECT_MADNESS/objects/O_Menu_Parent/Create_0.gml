@@ -27,3 +27,14 @@ enum menu_element_type {
 	input
 }
 
+//MAIN MENU, MENU OPTION USAM
+enum menu_page {
+	main,
+	//load_game,
+	settings,
+	audio,
+	graphics,
+	controls,
+	
+}
+
