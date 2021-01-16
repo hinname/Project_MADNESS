@@ -7,4 +7,6 @@ draw_sprite(S_Textbox, 0, x, y);
 // Draw Text
 draw_set_font (F_Pixelada);
 
-draw_text_ext(x, y, text, StringWeight, BoxWidth);
+color = c_white;
+
+draw_text_ext_color(x, y, text, StringWeight, BoxWidth, color, color, color, color, 1);
