@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"R_Inventory","path":"rooms/R_Inventory/R_Inventory.yy",},"order":2,},
     {"id":{"name":"S_Player_Walk","path":"sprites/S_Player_Walk/S_Player_Walk.yy",},"order":1,},
     {"id":{"name":"change_room_menu","path":"scripts/change_room_menu/change_room_menu.yy",},"order":8,},
     {"id":{"name":"change_window_mode","path":"scripts/change_window_mode/change_window_mode.yy",},"order":6,},
@@ -21,13 +22,14 @@
     {"id":{"name":"O_WrapController","path":"objects/O_WrapController/O_WrapController.yy",},"order":3,},
     {"id":{"name":"O_Menu_Parent","path":"objects/O_Menu_Parent/O_Menu_Parent.yy",},"order":0,},
     {"id":{"name":"change_volume","path":"scripts/change_volume/change_volume.yy",},"order":3,},
+    {"id":{"name":"R_Map","path":"rooms/R_Map/R_Map.yy",},"order":1,},
     {"id":{"name":"O_MenuController","path":"objects/O_MenuController/O_MenuController.yy",},"order":0,},
     {"id":{"name":"R_MenuOption","path":"rooms/R_MenuOption/R_MenuOption.yy",},"order":1,},
     {"id":{"name":"O_WrapTo","path":"objects/O_WrapTo/O_WrapTo.yy",},"order":2,},
-    {"id":{"name":"R_MenuGame","path":"rooms/R_MenuGame/R_MenuGame.yy",},"order":2,},
+    {"id":{"name":"R_MenuGame","path":"rooms/R_MenuGame/R_MenuGame.yy",},"order":0,},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"order":0,},
     {"id":{"name":"S_Textbox","path":"sprites/S_Textbox/S_Textbox.yy",},"order":4,},
-    {"id":{"name":"O_MenuGame","path":"objects/O_MenuGame/O_MenuGame.yy",},"order":2,},
+    {"id":{"name":"O_MenuGame","path":"objects/O_MenuGame/O_MenuGame.yy",},"order":0,},
     {"id":{"name":"O_Textbox","path":"objects/O_Textbox/O_Textbox.yy",},"order":0,},
     {"id":{"name":"F_Pixelada","path":"fonts/F_Pixelada/F_Pixelada.yy",},"order":0,},
     {"id":{"name":"O_Coin","path":"objects/O_Coin/O_Coin.yy",},"order":0,},
@@ -59,6 +61,8 @@
     {"roomId":{"name":"R_NextDoor","path":"rooms/R_NextDoor/R_NextDoor.yy",},},
     {"roomId":{"name":"R_MenuGame","path":"rooms/R_MenuGame/R_MenuGame.yy",},},
     {"roomId":{"name":"R_MenuOption","path":"rooms/R_MenuOption/R_MenuOption.yy",},},
+    {"roomId":{"name":"R_Map","path":"rooms/R_Map/R_Map.yy",},},
+    {"roomId":{"name":"R_Inventory","path":"rooms/R_Inventory/R_Inventory.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -84,6 +88,8 @@
     {"folderPath":"folders/Sprites/Items.yy","order":6,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Items.yy","order":10,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Core.yy","order":11,"resourceVersion":"1.0","name":"Core","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/menus/MenuGame.yy","order":3,"resourceVersion":"1.0","name":"MenuGame","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/menu/MenuGame.yy","order":4,"resourceVersion":"1.0","name":"MenuGame","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
